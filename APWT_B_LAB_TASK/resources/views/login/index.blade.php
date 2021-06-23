@@ -23,10 +23,15 @@
                 <td><input type="submit" value="submit"></td>
         </tr>
     </table>
+
+    <div><a href="/register">Do_Registration</a></div>
+
     </center>
     </form>
     
     {{session('msg')}}
+
+    
 
     <!-- @if(Session::has('msg'))
             <div class="alert alert-danger">
