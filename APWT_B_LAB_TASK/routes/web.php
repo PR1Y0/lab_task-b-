@@ -13,5 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/login', 'LoginController@M1F1');
-Route::post('/login', 'LoginController@verify');
+Route::get('/login', 'App\Http\Controllers\LoginController@M1F1');
+Route::post('/login', 'App\Http\Controllers\LoginController@M1F2');
+

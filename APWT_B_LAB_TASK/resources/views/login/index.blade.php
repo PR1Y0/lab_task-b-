@@ -6,6 +6,7 @@
 <body>
     
     <form method="POST">
+    <!-- @csrf -->
     <center>
     <table>
         <tr>
@@ -24,5 +25,6 @@
     </table>
     </center>
     </form>
+    {{session('msg')}}
 </body>
 </html>
