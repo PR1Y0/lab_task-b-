@@ -18,3 +18,6 @@ Route::post('/login', 'App\Http\Controllers\LoginController@M1F2');
 
 Route::get('/admin', 'App\Http\Controllers\AdminController@index');
 Route::get('/logout', 'App\Http\Controllers\LogoutController@M2F1');
+
+Route::get('/register', 'App\Http\Controllers\RegistrationController@M3F1');
+Route::post('/register', 'App\Http\Controllers\RegistrationController@M3F2');
