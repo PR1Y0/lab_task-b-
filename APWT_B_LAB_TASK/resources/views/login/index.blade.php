@@ -6,7 +6,7 @@
 <body>
     
     <form method="POST">
-    <!-- @csrf -->
+    @csrf
     <center>
     <table>
         <tr>
@@ -25,6 +25,15 @@
     </table>
     </center>
     </form>
+    
     {{session('msg')}}
+
+    <!-- @if(Session::has('msg'))
+            <div class="alert alert-danger">
+                {{Session::get('msg')}}
+            </div>
+    @endif         -->
+
+    
 </body>
 </html>
